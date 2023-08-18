@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Yapılacaklar Listesi</h1>
+      <div class="top">
+        <h2>Yeni Görev</h2>
+        <form id="top-form">
+          <div class="ekle">
+            <input
+              type="text"
+              placeholder="Yeni görev girin"
+              class="input-ekle"
+              id="inputekle"
+            />
+            <button type="button" class="btn-plus" id="btnpls">
+              <i class="fa-solid fa-plus"></i>
+            </button>
+          </div>
+        </form>
+      </div>
+      <div class="lower">
+        <div class="lw-top">
+          <h2>Görev Listesi</h2>
+          <button class="clear" id="cleartodo">Temizle</button>
+        </div>
+        <div class="lw-list" id="lwlist"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

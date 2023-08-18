@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  height: 100vh;
+}
+.container h1 {
+  text-align: center;
+  font-size: 40px;
+}
+.top {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+  margin-left: 10%;
+  width: 75%;
+}
+.top h2 {
+  font-style: bold;
+  font-size: 20px;
+  padding-left: 10px;
+  background-color: #e9e9e9;
+  border-radius: 3px;
+}
+#top-form {
+  padding-top: 25px;
+  padding-bottom: 10px;
+  border: 1px solid #deddde;
+  border-radius: 4px;
+}
+.ekle {
+  display: flex;
+}
+.input-ekle {
+  height: 20px;
+  width: 90%;
+  margin-left: 20px;
+  padding-left: 10px;
+  outline: none;
+}
+.btn-plus {
+  height: 22px;
+  width: 3%;
+  background-color: #1d9bf0;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+}
+.lower {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-left: 10%;
+  width: 75%;
+}
+.lw-top {
+  height: 30px;
+  display: flex;
+  padding-left: 10px;
+  background-color: #e9e9e9;
+  border-radius: 3px;
+  justify-content: space-between;
+  border-bottom: 0.8px solid gray;
+}
+.lw-top h2 {
+  font-style: bold;
+  font-size: 20px;
+}
+.clear {
+  width: 45px;
+  color: red;
+  font-size: 11px;
+  margin-right: 15px;
+  margin-top: 5px;
+  border: 1px solid red;
+  border-radius: 3px;
+  height: 20px;
+  cursor: pointer;
+}
+.lw-list {
+  display: flex;
+  flex-direction: column;
+}
+.todo {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  height: 30px;
+  background-color: #e9e9e9;
+  border-radius: 2px;
+  border: 1px solid #deddde;
+}
+.trash-btn {
+  width: 15px;
+  background: transparent;
+  border: none;
+  font-size: 11px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+.todo-item {
+  font-size: 17px;
+  padding-left: 10px;
+  text-transform: capitalize;
+}
